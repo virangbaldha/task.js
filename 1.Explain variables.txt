@@ -1,0 +1,85 @@
+1.Explain variables
+Ans:A JavaScript variable is simply a name of storage 
+
+2.whatare the diffrent datatype in js
+Ans:String.
+    Number.
+    Bigint.
+    Boolean.
+    Undefined.
+    Null.
+    Symbol.
+    Object.
+
+3.explain hoasting
+Ans:JavaScript's default behavior of moving all declarations to the top of the current scope
+
+4.different between double ??/???
+Ans:
+
+5.different between ==/===
+Ans:= in JavaScript is used for assigning values to a variable. == in JavaScript is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but this operator also checks datatype and compares two values.
+
+6.1 arithmetical operator example
+Ans:Arithmetic Operator is used to performing mathematical operations such as addition, subtraction, multiplication, division, modulus, etc., on the given operands. For example: 5 + 3 = 8, 5 - 3 = 2, 2 * 4 = 8, etc. are the examples of arithmetic operators.
+
+7.dynamic example of boolian operator
+Ans:For example, String str = " ( X & ( Y | Z ) ) " ; They value of X , Y or Z will be either true or false. String result = "( true & (false | true ) ".
+
+8.how many keywords in java? and their example
+Ans:Java has a total of 51 keywords that have predefined meaning and are reserved for use by Java. Out of these 51 keywords, 49 keywords are currently used while the remaining 2 are no more used.
+
+9.different object & array
+Ans:Arrays are best to use when the elements are numbers. Objects are best to use when the elements' strings (text). The data inside an array is known as Elements. The data inside objects are known as Properties which consists of a key and a value.
+
+10.type of function in js
+Ans:There are 3 ways of writing a function in JavaScript:
+
+Function Declaration
+Function Expression
+Arrow Function
+
+11.what is js in brieffing?
+Ans:JavaScript is a text-based, object-oriented scripting language. JavaScript works on UI and server development. While HTML and CSS design a webpage, JavaScript makes the website interactive. Brenden Eich developed JavaScript in 1995 for Netscape in ten days.
+
+12.dynamic object
+Ans:Dynamic objects expose members such as properties and methods at run time, instead of at compile time. Dynamic objects enable you to create objects to work with structures that don't match a static type or format.
+
+13.what is different between scripting & programing language? 
+Ans:The basic difference between a scripting language and a programming language is that scripting languages do not need an additional step of compilation and rather they are interpreted, whereas programming languages are compiled and hence need a compilation step to convert the high-level language to machine code.
+
+14.create a example with loop
+Ans:i is initialized to 1.
+The test expression i < 11 is evaluated. ...
+The update statement ++i is executed. ...
+Again, the update statement ++i is executed and the test expression i < 11 is evaluated. ...
+When i becomes 11, i < 11 will be false, and the for loop terminates.
+
+15.what are the type of error in js?
+Ans:There are 7 types of JavaScript errors: Syntax error, Reference Error, Type Error, Evaluation Error, RangeError, URI Error and Internal Error.
+
+16.what is the lexican environment
+Ans:A lexical Environment is a data structure that holds an identifier-variable mapping. (here identifier refers to the name of variables/functions, and the variable is the reference to the actual object [including function type object] or primitive value).
+
+17.what is DOM? example & brifing
+Ans:The Document Object Model (DOM) is a programming interface for web documents 
+
+18.what is client & server side?
+Ans:Client-side means that the action takes place on the user's (the client's) computer. Server-side means that the action takes place on a web server. Client-side means that the action takes place on the user's (the client's) computer. Server-side means that the action takes place on a web server.
+
+19.what is globle variable
+Ans:A global variable in javascript is a variable having global scope, meaning, it can be accessed from anywhere inside the programme.
+
+20.adding CSS JS (example)
+Ans:In modern browsers, you can use document. adoptedStyleSheets to add CSS. const sheet = new CSSStyleSheet(); sheet. replace("strong { color: red; }"); document.
+
+
+
+
+
+
+
+
+
+
+
