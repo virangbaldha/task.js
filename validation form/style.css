@@ -1,0 +1,229 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,300;0,400;1,400&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "poppins", sans-serif;
+ }
+
+ .container {
+     width: 100%;
+
+ }
+
+ body {
+     background: url(img/grunge-style-abstract-sunset-landscape-background.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     overflow: hidden;
+ }
+
+ .wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: rgba(39, 39, 39, 0.4);
+ }
+
+ .top_head {
+     position: fixed;
+     top: 0;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 100px;
+     line-height: 100px;
+     background: linear-gradient(rgba(39, 39, 39, 0.6), transparent);
+     z-index: 100;
+     padding: 0 20px;
+ }
+
+ .logo {
+     font-size: 25px;
+     color: #fff;
+     font-weight: 600;
+ }
+
+ .nav_links ul li {
+     display: inline-block;
+ }
+
+ .nav_links ul li .link {
+     text-decoration: none;
+     font-weight: 500;
+     color: #fff;
+     padding-bottom: 15px;
+     margin: 0 25px;
+     font-size: 20px;
+ }
+
+ .link:hover,
+ .active {
+     border-bottom: 2px solid white;
+ }
+
+ .form_box {
+     margin-top: 100px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 512px;
+     height: 420px;
+     z-index: 2;
+     overflow: hidden;
+ }
+
+
+ .btn {
+     width: 130px;
+     height: 40px;
+     font-weight: 500;
+     background: rgba(255, 255, 255, 0.3);
+     border-radius: 30px;
+     cursor: pointer;
+     transition: 1s;
+     border: none;
+ }
+
+ .btn:hover {
+     background: rgba(255, 255, 255, 0.3);
+ }
+
+ #registerbtn {
+     margin-left: 15px;
+ }
+
+ .btn.white_btn {
+     background: rgba(255, 255, 255, 0.7);
+     border: none;
+ }
+
+ .btn.white_btn:hover {
+     background: rgba(255, 255, 255, 0.5);
+ }
+
+ .nev_icon {
+     display: none;
+ }
+
+ .login_container {
+     width: 500px;
+     position: absolute;
+     left: 4px;
+     display: flex;
+     flex-direction: column;
+     transition: .5s ease-in-out;
+ }
+
+ .register_container {
+     width: 500px;
+     position: absolute;
+     right: -520px;
+     display: flex;
+     flex-direction: column;
+     transition: .5s ease-in-out;
+ }
+
+ .top span {
+     color: white;
+     font-size: small;
+     padding: 10px 0;
+     display: flex;
+     justify-content: center;
+ }
+
+ .top span a {
+     font-weight: 500;
+     color: #fff;
+     margin-left: 5px;
+ }
+
+ header {
+     color: white;
+     font-size: 30px;
+     text-align: center;
+     padding: 10px 0 30px 0;
+ }
+
+ .two_forms {
+     display: flex;
+     gap: 10px;
+ }
+
+ .input_field {
+     font-size: 15px;
+     background: rgba(255, 255, 255, 0.25);
+     color: #fff;
+     height: 50px;
+     width: 100%;
+     padding: 0 10px 0 45px;
+     border: none;
+     border-radius: 30px;
+     outline: none;
+     transition: 2s ease;
+ }
+
+ .input_field:hover,
+ .input_field:focus {
+     background: rgba(255, 255, 255, 0.25);
+ }
+
+ ::-webkit-input-placeholder {
+     color: #fff;
+ }
+
+ .input_box i {
+     position: relative;
+     top: -35px;
+     left: 17px;
+     color: #fff;
+ }
+
+ .submit {
+     font-size: 15px;
+     font-weight: 500;
+     color: black;
+     height: 45px;
+     width: 100%;
+     border: none;
+     border-radius: 30px;
+     outline: none;
+     background: rgba(255, 255, 255, 0.25);
+     cursor: pointer;
+     transition: .3s ease-in-out;
+ }
+
+ .submit:hover {
+     background: rgba(255, 255, 255, 0.5);
+     box-shadow: 1px 5px 7pxc 1px rgba(0, 0, 0, 0.2);
+ }
+
+ .two_col {
+     display: flex;
+     justify-content: space-between;
+     color: #fff;
+     font-size: small;
+     margin-top: 10px;
+ }
+
+ .two_col .one {
+     display: flex;
+     gap: 5px;
+ }
+
+ .two label a {
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .two label a:hover {
+     text-decoration: underline;
+ }
+
+ .nav_menu.active {
+     top: 0;
+ }
